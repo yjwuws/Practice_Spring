@@ -3,8 +3,8 @@ import java.io.*;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import com.tnt.model.*;
-//import com.lld.model.*;
+
+import com.tnt.model0.*;
 
 public class ImgReader extends HttpServlet {
 

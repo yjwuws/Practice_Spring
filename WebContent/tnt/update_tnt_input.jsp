@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@ page import="com.tnt.model.*"%>
+<%@ page import="com.tnt.model0.*"%>
 <%
   TntVO tntVO = (TntVO) request.getAttribute("tntVO"); //EmpServlet.java (Concroller) 存入req的tntVO物件 (包括幫忙取出的tntVO, 也包括輸入資料錯誤時的tntVO物件)
   %>

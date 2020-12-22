@@ -1,4 +1,4 @@
-package com.tnt.model;
+package com.tnt.model0;
 
 import java.sql.Date;
 import java.sql.Timestamp;

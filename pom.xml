@@ -65,22 +65,22 @@
 		<!-- Spring Boot日誌系統預設是使用logback -->
 		<!-- 對於習慣了log4j的開發者，Spring Boot依然有很好的支援 -->
 		<!-- 不過我們在引入log4j之前，需要先排除該logback jar的依賴，再引入log4j的依賴，如下所示: -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-starter-logging</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.boot</groupId> -->
+<!-- 			<artifactId>spring-boot-starter</artifactId> -->
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.springframework.boot</groupId> -->
+<!-- 					<artifactId>spring-boot-starter-logging</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
+<!-- 		</dependency> -->
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-log4j</artifactId>
-			<version>1.3.8.RELEASE</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springframework.boot</groupId> -->
+<!-- 			<artifactId>spring-boot-starter-log4j</artifactId> -->
+<!-- 			<version>1.3.8.RELEASE</version> -->
+<!-- 		</dependency> -->
 		<!-- ========================================================================================== -->
 		<!-- 以下為 ojdbc6.jar JDBC driver 下載用 -->
 		<dependency>

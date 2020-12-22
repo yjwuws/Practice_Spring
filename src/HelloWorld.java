@@ -5,7 +5,7 @@ import javax.servlet.http.*;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.tnt.model.TntService;
+import com.tnt.model0.TntService;
 
 public class HelloWorld extends HttpServlet {
 

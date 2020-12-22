@@ -24,9 +24,9 @@ import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.tnt.model.Registerform;
-import com.tnt.model.TntService;
-import com.tnt.model.TntVO;
+import com.tnt.model0.Registerform;
+import com.tnt.model0.TntService;
+import com.tnt.model0.TntVO;
 
 @Controller
 @RequestMapping("/tnt")

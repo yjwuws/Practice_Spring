@@ -1,10 +1,8 @@
-package com.tnt.model;
+
 
 import java.sql.Date;
 import java.sql.Timestamp;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -19,6 +17,7 @@ public class Registerform {
 //	private String tnt_pwd2;
 	private String tnt_name;
 	private Boolean tnt_sex;
+
 	
 	@NotEmpty
 	@Email
